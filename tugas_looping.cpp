@@ -19,5 +19,7 @@ void inputAngka() {
 
 int main() {
     pilihan = -1;
+    while (pilihan != 0) {
+    }
     return 0;
 }
