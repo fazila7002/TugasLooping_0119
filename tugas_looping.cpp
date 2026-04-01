@@ -12,6 +12,9 @@ cout << "1. Cek Bilangan Prima" << endl;
     cout << "Pilih menu: "; 
 }
 
+void inputAngka() {
+}
+
 int main() {
     return 0;
 }
