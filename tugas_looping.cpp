@@ -16,6 +16,14 @@ bool cekPrima(int n) {
 }
 
 bool cekFibonacci(int n) {
+   if (n < 0) return false;
+    int a = 0, b = 1;
+    if (n == a || n == b) return true;
+    int next = a + b;
+    while (next <= n) {
+        if (next == n) return true;
+        a = b; b = next; next = a + b;
+    }
     return false;
 }
 
