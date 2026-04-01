@@ -38,6 +38,7 @@ bool cekFibonacci(int n) {
     return false;
 }
 
+
 void tampilkanMenu() { 
     cout << "\n========== MENU UTAMA ==========" << endl;
 cout << "1. Cek Bilangan Prima" << endl;
@@ -51,13 +52,15 @@ void inputAngka() {
     cin >> angka;
 }
 
+
 int main() {
     pilihan = -1;
     while (pilihan != 0) {
     tampilkanMenu();
         cin >> pilihan;
         switch (pilihan) {
-case 1:
+            
+            case 1:
                 inputAngka();
                 tampilkanHasil(1);
                 break;
@@ -76,4 +79,5 @@ case 1:
         }
     }
     return 0;
+
 }
