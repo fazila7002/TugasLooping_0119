@@ -4,6 +4,10 @@ using namespace std;
 int angka;
 int pilihan;
 
+bool cekPrima(int n) {
+    return false; 
+}
+
 void tampilkanMenu() { 
     cout << "\n========== MENU UTAMA ==========" << endl;
 cout << "1. Cek Bilangan Prima" << endl;
