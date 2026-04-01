@@ -66,6 +66,13 @@ case 1:
                 tampilkanHasil(2);
                 break;
 
+            case 0:
+                cout << "Keluar program..." << endl;
+                break;
+            default:
+                cout << "Pilihan tidak valid!" << endl;
+                break;
+
         }
     }
     return 0;
