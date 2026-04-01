@@ -2,6 +2,17 @@
 using namespace std;
 
 int angka;
+
+void tampilkanHasil(int tipe) {
+    if (tipe == 1) {
+        if (cekPrima(angka)) cout << "Hasil: Bilangan Prima" << endl;
+        else cout << "Hasil: Bukan Prima" << endl;
+    } else if (tipe == 2) {
+        if (cekFibonacci(angka)) cout << "Hasil: Bilangan Fibonacci" << endl;
+        else cout << "Hasil: Bukan Fibonacci" << endl;
+    }
+}
+
 int pilihan;
 
 bool cekPrima(int n) {
