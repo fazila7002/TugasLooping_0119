@@ -57,6 +57,15 @@ int main() {
     tampilkanMenu();
         cin >> pilihan;
         switch (pilihan) {
+case 1:
+                inputAngka();
+                tampilkanHasil(1);
+                break;
+            case 2:
+                inputAngka();
+                tampilkanHasil(2);
+                break;
+
         }
     }
     return 0;
