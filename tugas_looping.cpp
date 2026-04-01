@@ -13,6 +13,8 @@ cout << "1. Cek Bilangan Prima" << endl;
 }
 
 void inputAngka() {
+    cout << "Masukkan angka yang ingin dicek: ";
+    cin >> angka;
 }
 
 int main() {
