@@ -20,6 +20,8 @@ void inputAngka() {
 int main() {
     pilihan = -1;
     while (pilihan != 0) {
+    tampilkanMenu();
+        cin >> pilihan;
     }
     return 0;
 }
