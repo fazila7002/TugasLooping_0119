@@ -18,5 +18,6 @@ void inputAngka() {
 }
 
 int main() {
+    pilihan = -1;
     return 0;
 }
