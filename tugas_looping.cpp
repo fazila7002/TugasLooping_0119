@@ -22,6 +22,8 @@ int main() {
     while (pilihan != 0) {
     tampilkanMenu();
         cin >> pilihan;
+        switch (pilihan) {
+        }
     }
     return 0;
 }
