@@ -4,7 +4,8 @@ using namespace std;
 int angka;
 int pilihan;
 
-void tampilkanMenu() {
+void tampilkanMenu() { 
+    cout << "\n========== MENU UTAMA ==========" << endl;
    }
 
 int main() {
